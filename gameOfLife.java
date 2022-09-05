@@ -39,9 +39,9 @@ public class gameOfLife {
 	  }
 	  
 	  public static boolean isAlive(int array[][],int xPos, int yPos){
-	    int count =0;
+	    int count =0; 
 	    int minX,maxX,minY,maxY;
-	    if (xPos ==0){
+	    if (xPos ==0){ // range limiter
 	      minX = 0;
 	    }else{
 	      minX = -1;
