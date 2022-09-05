@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class gameOfLife {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-	    int[][] prevArray= new int[5][5];
+	    int[][] prevArray= new int[5][5]; // instantiates a 2d array
 	    int[][] nextArray = new int[5][5];
 	    System.out.println("Enter the first stage in a 5x5 line by line:");
 	    for(int i=0;i<5;i++){
